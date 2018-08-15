@@ -13,12 +13,14 @@ public class Saxofon implements Tocar, Afinar{
 
     @Override
     public void tocarinstrumento() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+
+        System.out.println("Toqué el saxofón");
     }
 
     @Override
     public void afinarinstrumento() {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
+
+        System.out.println("He afinado el saxofón");
     }
     
 }

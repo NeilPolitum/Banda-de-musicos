@@ -17,10 +17,9 @@ public class Banda {
     
     Random random = new Random();
     
-    int numMusicos = (int) (random.nextDouble()*30+5);
+    int numMusicos = (int) (random.nextDouble()*30+1);
     
     Musicos[] Banda = new Musicos[numMusicos];
-    Ob
     
     Banda(){}
     
@@ -29,10 +28,6 @@ public class Banda {
         for(int i=0; i<numMusicos; i++){
             
             Banda[i] = new Musicos();
-        }
-        
-        for(int i=0; i<numMusicos; i++){
-                        
             Banda[i].creaInstrumento(Instrumentos[(int) (random.nextDouble()*10)]);
         }
         
