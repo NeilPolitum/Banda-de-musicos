@@ -9,7 +9,7 @@ package BandaMusicos;
  *
  * @author Brayan Alexander
  */
-public class Maracas implements Tocar, Afinar{
+public class Maracas extends Instrumento{
 
     @Override
     public void tocarinstrumento() {

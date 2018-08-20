@@ -9,7 +9,7 @@ package BandaMusicos;
  *
  * @author Brayan Alexander
  */
-public class Guacharaca implements Tocar, Afinar{
+public class Guacharaca extends Instrumento{
 
     @Override
     public void tocarinstrumento() {

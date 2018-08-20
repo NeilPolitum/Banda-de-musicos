@@ -19,7 +19,7 @@ public class Banda {
     
     int numMusicos = (int) (random.nextDouble()*30+1);
     
-    Musicos[] Banda = new Musicos[numMusicos];
+    Musico[] Banda = new Musico[numMusicos];
     
     Banda(){}
     
@@ -27,16 +27,43 @@ public class Banda {
         
         for(int i=0; i<numMusicos; i++){
             
-            Banda[i] = new Musicos();
-            Banda[i].creaInstrumento(Instrumentos[(int) (random.nextDouble()*10)]);
+            Banda[i] = new Musico();
+            Banda[i].escogerInstrumento(Instrumentos[(int) (random.nextDouble()*10)]);
+            
         }
         
     }
     
+    public void afinarTodos(){
+        
+        for(int i=0; i<numMusicos; i++){
+            
+            Banda[i].afinar();
+            
+        }
+        
+    }
+    
+    public void tocarTodos(){
+        
+        for(int i=0; i<numMusicos; i++){
+            
+            Banda[i].tocar();
+            
+        }
+        
+    }
+    
+    
     public static void main(String[] args){
         
-        Banda o = new Banda();
-        o.creaBanda();
+        Banda banda = new Banda();
+        System.out.println("Llegaron los músicos");
+        banda.creaBanda();
+        System.out.println("Los músicos están afinando");
+        banda.afinarTodos();
+        System.out.println("Los músicos comienzan la tocada");
+        banda.tocarTodos();
         
     }
     

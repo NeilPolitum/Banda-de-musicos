@@ -9,18 +9,8 @@ package BandaMusicos;
  *
  * @author Brayan Alexander
  */
-public class Arpa extends Instrumento{
-
-    @Override
-    public void tocarinstrumento() {
-
-        System.out.println("Toqué el arpa");
-    }
-
-    @Override
-    public void afinarinstrumento() {
-
-        System.out.println("He afinado el arpa");
-    }
+public interface Afinable {
+    
+    public void afinarinstrumento();
     
 }

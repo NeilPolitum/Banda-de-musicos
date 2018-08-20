@@ -9,7 +9,7 @@ package BandaMusicos;
  *
  * @author Brayan Alexander
  */
-public class Acordeon implements Tocar, Afinar{
+public class Acordeon extends Instrumento{
 
     @Override
     public void tocarinstrumento() {

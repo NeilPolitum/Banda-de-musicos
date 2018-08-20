@@ -9,7 +9,7 @@ package BandaMusicos;
  *
  * @author Brayan Alexander
  */
-public class Trombon implements Tocar, Afinar{
+public class Trombon extends Instrumento{
 
     @Override
     public void tocarinstrumento() {

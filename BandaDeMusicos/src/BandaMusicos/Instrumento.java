@@ -7,20 +7,16 @@ package BandaMusicos;
 
 /**
  *
- * @author Brayan Alexander
+ * @author Estudiantes
  */
-public class Saxofon extends Instrumento{
-
-    @Override
-    public void tocarinstrumento() {
-
-        System.out.println("Toqué el saxofón");
-    }
+public class Instrumento implements Afinable, Insterpretable{
 
     @Override
     public void afinarinstrumento() {
+    }
 
-        System.out.println("He afinado el saxofón");
+    @Override
+    public void tocarinstrumento() {
     }
     
 }
