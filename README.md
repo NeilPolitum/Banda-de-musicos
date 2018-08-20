@@ -7,4 +7,4 @@ La idea del proyecto es simular el comportamiento aleatorio de una banda de mús
 DIAGRAMA DE CLASES:
 ![No ha sido encontrado el diagrama](https://github.com/brayanpasa99/Banda-de-musicos/blob/master/BandaDeMusicos%20C.jpeg)<br>
 DIAGRAMA DE SECUENCIA:
-!["No ha sido encontrado el diagrama"](https://drive.google.com/open?id=17pFmjvY1AfBNMfz40WEZrZvye-702PIM)
+!["No ha sido encontrado el diagrama"](https://github.com/brayanpasa99/Banda-de-musicos/blob/master/BandaDeMusicos%20S.jpeg)
